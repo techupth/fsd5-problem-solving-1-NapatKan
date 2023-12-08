@@ -2,6 +2,8 @@
 
 const addStrings = function (num1, num2) {
   //Start coding here
+  value = Number(num1) + Number(num2);
+  return String(value);
 };
 
 const result1 = addStrings("11", "123");
